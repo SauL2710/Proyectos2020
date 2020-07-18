@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.argosresidencia">
+    <!-- Permisos para uso de la app -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".A_Horario"></activity>
+        <activity android:name=".M_Registrados" />
+        <activity android:name=".PoliticasPrivacidad" />
+        <activity android:name=".M_MenuQR" />
+        <activity android:name=".M_Escaner" />
+        <activity android:name=".A_Progreso" />
+        <activity android:name=".Notificaciones" />
+        <activity android:name=".Actividades" />
+        <activity android:name=".A_QR" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".M_Menu" />
+        <activity android:name=".A_Menu" />
+        <activity android:name=".Contrasena" />
+        <activity android:name=".Registro" />
+        <activity android:name=".InicioSesion" />
+        <activity android:name=".SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name=".MiFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

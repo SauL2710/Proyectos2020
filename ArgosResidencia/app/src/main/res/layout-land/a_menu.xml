@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".A_Menu">
+
+    <include
+        layout="@layout/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnConferencias"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawable="@mipmap/ic_launcher"
+                android:drawableStart="@drawable/ic_conferencia"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/conferencias"
+                android:textStyle="italic"
+                android:onClick="verConferencias"/>
+
+            <Button
+                android:id="@+id/btnTalleres"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/ic_taller1"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/talleres"
+                android:textStyle="italic"
+                android:onClick="verTalleres"/>
+
+            <Button
+                android:id="@+id/btnVisitas"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/ic_visita_industrial"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/visitas"
+                android:textStyle="italic"
+                android:onClick="verVisitas"/>
+
+            <Button
+                android:id="@+id/btnActSociales"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/ic_actividades_culturales"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/culturales"
+                android:textStyle="italic"
+                android:onClick="verCulturales"/>
+
+            <View
+                android:id="@+id/division2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnHorario"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/horario"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/crear_horario"
+                android:textStyle="italic"
+                android:onClick="crearHorario" />
+
+            <Button
+                android:id="@+id/btnNotificaciones"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/ic_notificaciones"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/notificaciones"
+                android:textStyle="italic"
+                android:onClick="verNotificaciones" />
+
+            <Button
+                android:id="@+id/btnCodigoQR"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/ic_qr"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/miQR"
+                android:textStyle="italic"
+                android:onClick="verQR"/>
+
+            <Button
+                android:id="@+id/btnProgreso"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/botonvacio"
+                android:drawableStart="@drawable/ic_progreso"
+                android:fontFamily="@font/marvel"
+                android:textColor="#000000"
+                android:text="@string/progreso"
+                android:textStyle="italic"
+                android:onClick="verProgreso"/>
+
+            <View
+                android:id="@+id/division"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="21"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

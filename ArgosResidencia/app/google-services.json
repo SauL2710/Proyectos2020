@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "158791454000",
+    "firebase_url": "https://argos20-itt.firebaseio.com",
+    "project_id": "argos20-itt",
+    "storage_bucket": "argos20-itt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158791454000:android:36a570949a98c456dcccf5",
+        "android_client_info": {
+          "package_name": "com.example.argos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158791454000-813s6jr10vkkdu7h8jo08d0s49blk5i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsLxQGbT7OvtBO0HqLpjSk4zBIW7R3h2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158791454000-813s6jr10vkkdu7h8jo08d0s49blk5i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158791454000:android:33754855943b842edcccf5",
+        "android_client_info": {
+          "package_name": "com.example.argosresidencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158791454000-gfnmgqqnrmbrg2igr6o6eovopnbqto5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.argosresidencia",
+            "certificate_hash": "c44710bfba753146d7df02e22069dd9221aeabc1"
+          }
+        },
+        {
+          "client_id": "158791454000-813s6jr10vkkdu7h8jo08d0s49blk5i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsLxQGbT7OvtBO0HqLpjSk4zBIW7R3h2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158791454000-813s6jr10vkkdu7h8jo08d0s49blk5i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

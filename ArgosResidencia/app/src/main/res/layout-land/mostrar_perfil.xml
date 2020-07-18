@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="#FFFFFF"
+    tools:context=".Perfil">
+
+    <include
+        layout="@layout/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/división"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/txtPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/marvel"
+        android:text="@string/perfil"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/nombres"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/nombres"
+                android:inputType="textPersonName|textNoSuggestions"
+                android:textColor="#000000"
+                android:textColorHint="#BF4B4C4B"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtApPaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/aPaterno"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/aPaterno"
+                android:inputType="textPersonName|textNoSuggestions"
+                android:textColor="#000000"
+                android:textColorHint="#BF4B4C4B"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtApMaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/aMaterno"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/aMaterno"
+                android:inputType="textPersonName|textNoSuggestions"
+                android:textColor="#000000"
+                android:textColorHint="#BF4B4C4B"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtNoControl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/noControl"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/noControl"
+                android:inputType="textPersonName|textNoSuggestions"
+                android:focusable="false"
+                android:textColor="#BF4B4C4B"
+                android:textColorHint="#BF4B4C4B"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/correoElectronico"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/correoElectronico"
+                android:inputType="textEmailAddress|textNoSuggestions"
+                android:focusable="false"
+                android:textColor="#BF4B4C4B"
+                android:textColorHint="#BF4B4C4B"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtContrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/contrasena"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/passMsn"
+                android:inputType="textPassword|textNoSuggestions"
+                android:textColorHint="#BF4B4C4B"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtConfirmarContrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/confirmarContrasena"
+                android:backgroundTint="#0AA81C"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/passMsn"
+                android:inputType="textPassword|textNoSuggestions"
+                android:textColorHint="#BF4B4C4B"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <Spinner
+                    android:id="@+id/spCarrera"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="1dp"
+                    android:dropDownWidth="wrap_content"
+                    android:entries="@array/spCarreras"
+                    android:fontFamily="@font/marvel"
+                    android:spinnerMode="dropdown"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.029" />
+
+                <Spinner
+                    android:id="@+id/spInstituto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:dropDownWidth="wrap_content"
+                    android:entries="@array/spInstitutos"
+                    android:fontFamily="@font/marvel"
+                    android:spinnerMode="dropdown"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spCarrera"
+                    app:layout_constraintVertical_bias="0.054" />
+
+                <Spinner
+                    android:id="@+id/spSemestre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="4dp"
+                    android:dropDownWidth="wrap_content"
+                    android:entries="@array/spSemestres"
+                    android:fontFamily="@font/marvel"
+                    android:spinnerMode="dropdown"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spInstituto"
+                    app:layout_constraintVertical_bias="0.189" />
+                
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="156dp">
+
+                <Button
+                    android:id="@+id/btnActualizar"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/botonsolido"
+                    android:fontFamily="@font/marvel"
+                    android:onClick="actualizar"
+                    android:text="@string/actualizar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnRegresar"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/botonvacio"
+                    android:fontFamily="@font/marvel"
+                    android:onClick="regresar"
+                    android:text="@string/regresar"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnActualizar"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

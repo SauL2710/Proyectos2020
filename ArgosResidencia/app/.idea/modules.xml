@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/386539502/ArgosResidencia.iml" filepath="$PROJECT_DIR$/.idea/modules/386539502/ArgosResidencia.iml" group="ArgosResidencia" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArgosResidencia-app.iml" filepath="$PROJECT_DIR$/.idea/modules/ArgosResidencia-app.iml" group="ArgosResidencia/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="ArgosResidencia/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1308935598/argos-ArgosResidencia.iml" filepath="$PROJECT_DIR$/.idea/modules/-1308935598/argos-ArgosResidencia.iml" group="ArgosResidencia" />
+    </modules>
+  </component>
+</project>

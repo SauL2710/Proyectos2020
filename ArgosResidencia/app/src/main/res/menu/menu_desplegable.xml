@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navegacion_perfil"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/perfilN"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navegacion_politicasPrivacidad"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/politicas"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/navegacion_cerrarSesion"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/cerrarSesion"
+        app:showAsAction="never"/>
+</menu>

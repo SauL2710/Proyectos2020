@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Contrasena">
+
+    <include
+        layout="@layout/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="255dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/marvel"
+                android:text="@string/infoOlvidar"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026" />
+
+            <ImageView
+                android:id="@+id/imgCandado"
+                android:layout_width="170dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/candado"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+                app:layout_constraintVertical_bias="0.084"
+                app:srcCompat="@drawable/olvidar" />
+
+            <TextView
+                android:id="@+id/txtInformacion"
+                android:layout_width="533dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#BF4B4C4B"
+                android:fontFamily="@font/marvel"
+                android:text="@string/infoRecuperar"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#BF4B4C4B"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgCandado"
+                app:layout_constraintVertical_bias="0.157" />
+
+            <EditText
+                android:id="@+id/txtCorreo"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:autofillHints=""
+                android:backgroundTint="#BF4B4C4B"
+                android:ems="10"
+                android:fontFamily="@font/marvel"
+                android:hint="@string/correoElectronico"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#BF4B4C4B"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInformacion"
+                app:layout_constraintVertical_bias="0.103" />
+
+            <Button
+                android:id="@+id/btnEnviarCorreo"
+                android:layout_width="129dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/botonsolido"
+                android:fontFamily="@font/marvel"
+                android:onClick="enviarCorreo"
+                android:text="@string/enviarCorreo"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCorreo"
+                app:layout_constraintVertical_bias="0.217"
+                tools:ignore="OnClick" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

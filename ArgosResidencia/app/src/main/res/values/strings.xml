@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">ARGOS</string>
+    <string name="logoArgos">Logotipo de aplicación</string>
+
+    <!--Información de Inicio de sesión -->
+    <string name="logoUsuario">Logo de usuario</string>
+    <string name="correoElectronico">Correo Electrónico</string>
+    <string name="logoPass">Logo de contraseña</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Iniciar Sesión</string>
+    <string name="registrar">Registrarse</string>
+    <string name="recuperarPass">Recuperar Contraseña</string>
+
+    <!-- Información para Registro y actualizar -->
+    <string name="nombres">Nombre(s)</string>
+    <string name="aPaterno">Apellido paterno</string>
+    <string name="aMaterno">Apellido materno</string>
+    <string name="noControl">Número de control</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="registro">REGISTRO</string>
+    <string name="confirmarContrasena">Confirmar Contraseña</string>
+    <string name="recibirNotificaciones">Acepto recibir notificaciones</string>
+    <string name="carrera">Carrera</string>
+    <string name="instituto">Instituto</string>
+    <string name="semestre">Semestre</string>
+    <string name="passMsn">(Actual o nueva contraseña)</string>
+
+    <!-- Información para Menú de alumno -->
+    <string name="conferencias">CONFERENCIAS</string>
+    <string name="talleres">TALLERES</string>
+    <string name="visitas">VISITAS INDUSTRIALES</string>
+    <string name="culturales">ACTIVIDADES CULTURALES</string>
+    <string name="notificaciones">NOTIFICACIONES</string>
+    <string name="miQR">Mi QR</string>
+    <string name="progreso">PROGRESO DE ASISTENCIA</string>
+    <string name="codigoQR">Código QR de usuario</string>
+    <string name="porcentaje">0%</string>
+
+    <!-- Información para Menú de monitor -->
+    <string name="actividades">ACTIVIDADES</string>
+    <string name="iniciarEscaneo">Iniciar Escaneo</string>
+    <string name="verRegistros">Ver registros</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="hora">Hora</string>
+    <string name="lugar">Lugar</string>
+    <string name="actividad">Actividad</string>
+    <string name="fecha">Fecha</string>
+    <string name="horario">Horario</string>
+    <string name="notificacion_default">.</string>
+
+    <!-- Información de Recuperación de contraseña-->
+    <string name="infoOlvidar">Olvidé mi contraseña</string>
+    <string name="infoRecuperar">Introduce tu correo electrónico para recibir instrucciones sobre como establecer una nueva contraseña.</string>
+    <string name="candado">Logo de candado</string>
+    <string name="enviarCorreo">Enviar Correo</string>
+
+    <string name="perfil">PERFIL</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="inscritos">INSCRITOS</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="reescanear">REESCANEAR</string>
+    <string name="teclado">Icono de teclado</string>
+    <string name="msn_notificacion">No hay notificaciones pendientes</string>
+    <string name="msn_actividad">Necesita crear horario</string>
+
+    <!-- Listas -->
+    <string-array name="spInstitutos">
+        <item>Selecciona instituto</item>
+        <item>ITT</item>
+        <item>ITM</item>
+        <item>ITE</item>
+    </string-array>
+
+    <string-array name="spSemestres">
+        <item>Selecciona semestre</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="spCarreras">
+        <item>Selecciona carrera</item>
+        <item>ARQUITECTURA</item>
+        <item>CONTADOR PÚBLICO</item>
+        <item>ING. AMBIENTAL</item>
+        <item>ING. BIOMÉDICA</item>
+        <item>ING. BIOQUÍMICA</item>
+        <item>ING. CIVIL</item>
+        <item>ING. ELECTROMECÁNICA</item>
+        <item>ING. ELECTRÓNICA</item>
+        <item>ING. EN AERONÁUTICA</item>
+        <item>ING. EN DISEÑO INDUSTRIAL</item>
+        <item>ING. EN GESTIÓN EMPRESARIAL</item>
+        <item>ING. INFORMÁTICA</item>
+        <item>ING. EN LOGÍSTICA</item>
+        <item>ING. EN NANOTECNOLOGÍA</item>
+        <item>ING. EN SISTEMAS COMPUTACIONALES</item>
+        <item>ING. EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIONES</item>
+        <item>ING. INDUSTRIAL</item>
+        <item>ING. QUÍMICA</item>
+        <item>ING. MECÁNICA</item>
+        <item>LIC. EN ADMINISTRACIÓN</item>
+    </string-array>
+
+    <!-- Información de navegación -->
+    <string name="perfilN">Perfil</string>
+    <string name="politicas">Política de privacidad</string>
+    <string name="cerrarSesion">Cerrar sesión</string>
+    <string name="default_notification_channel_id">.</string>
+    <string name="asunto">Asunto:</string>
+    <string name="mensaje">Mensaje:</string>
+
+    <!-- Información de horario -->
+    <string name="crear_horario">CREAR HORARIO</string>
+    <string name="horario_msn">Elige las actividades a las que quieres asistir</string>
+</resources>
